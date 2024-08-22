@@ -37,7 +37,7 @@ const CategoryList = () => {
                 ))
                
                  :(
-                    categoryProduct.map((i,index)=>{
+                    categoryProduct?.map((i,index)=>{
                         return(
                             <Link to={'/product-category?category='+i?.category} className='cursor-pointer'key={i.category+index}>
                                 <div className='h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden p-4 bg-slate-200 flex items-center justify-center'>
