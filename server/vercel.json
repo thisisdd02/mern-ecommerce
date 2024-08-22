@@ -1,0 +1,18 @@
+{
+    "vercel":2,
+    "name":"shopcart",
+    "builds":[
+        {
+            "src" : "./server.js",
+            "use": "@vercel/node"
+
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]   
+
+}
