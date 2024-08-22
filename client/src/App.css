@@ -1,0 +1,15 @@
+.customshadow{
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.customtable{
+    @apply bg-white
+}
+.customtable th{
+    @apply border font-medium text-base
+}
+.customtable td{
+    @apply border text-base
+}
+.scroll-bar::-webkit-scrollbar{
+        display:none;
+}
