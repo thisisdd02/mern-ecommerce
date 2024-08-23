@@ -1,4 +1,4 @@
-const backendUrl = process.env.BACKEND_URL
+const backendUrl = "https://mernapi-sigma.vercel.app/"
 
  export const SummaryApi ={
     signUp :{
