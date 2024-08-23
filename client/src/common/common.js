@@ -1,4 +1,4 @@
-const backendUrl = "https://mernapi-sigma.vercel.app/"
+const backendUrl = "https://mernapi-sigma.vercel.app"
 
  export const SummaryApi ={
     signUp :{
