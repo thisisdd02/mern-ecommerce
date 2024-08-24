@@ -13,12 +13,9 @@ const port =4000 || process.env.PORT
 //middleware
 app.use(cors(
    {origin : process.env.FRONTEND_URL,
-    methods:["GET","POST"],
    credentials:true,
 }
 ));
-app.options('*',cors())
-
 
 app.use(express.json());
 app.use(cookieParser());
