@@ -12,7 +12,8 @@ const port =4000 || process.env.PORT
 
 //middleware
 app.use(cors(
-   {origin : 'https://mernapp-mu.vercel.app',
+   {origin : ['https://mernapp-five.vercel.app'],
+    methods:["GET","POST"],
    credentials:true,
 }
 ));
