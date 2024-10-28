@@ -2,9 +2,10 @@
 Welcome to my e-commerce project! This is a fully functional online store where users can browse, search, sort, filter, and make purchases seamlessly.
 
 **Features**
-1.Product Search: Easily find products by searching through the inventory.
-2.Sort & Filter: Organize product listings by categories, price, rating, etc.
-3.Payment Gateway: Integrated with Stripe for secure and reliable transactions.
+1.**Product Search:** Easily find products by searching through the inventory.
+2.**Sort & Filter: **Organize product listings by categories, price, rating, etc.
+3**.Payment Gateway:** Integrated with** Stripe **for secure and reliable transactions.
+ **State Management**: Efficient state handling with **React-Redux** for streamlined data flow.
 
 **Tech Stack**
 **Frontend**: React, Tailwind CSS
