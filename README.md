@@ -1,4 +1,4 @@
-**E-commerce Website**
+**Shopcart - E-commerce Website**
 Welcome to my e-commerce project! This is a fully functional online store where users can browse, search, sort, filter, and make purchases seamlessly.
 
 **Features**
